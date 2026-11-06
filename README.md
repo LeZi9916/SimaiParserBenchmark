@@ -2,6 +2,8 @@
 
 统一比较 cimai、MajSimai、SimaiSharp 和 maidata-rs 的可复现基准程序。完整输入为 `SimaiTestSamples/**/maidata.txt`，不包含磁盘 I/O 的计时。
 
+测试集的谱面源自 [MajdataNET](https://majdata.net)，谱面作者保留所有权利。
+
 ## 环境
 
 - Windows x64、Python 3.12+、Git、CMake 3.21+、Ninja。
