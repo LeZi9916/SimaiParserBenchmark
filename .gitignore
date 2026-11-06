@@ -1,0 +1,6 @@
+.work/
+artifacts/
+**/bin/
+**/obj/
+__pycache__/
+/download-samples.py

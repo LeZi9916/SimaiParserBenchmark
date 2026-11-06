@@ -1,0 +1,16 @@
+[submodule "modules/cimai"]
+	path = modules/cimai
+	url = https://github.com/re-poem/cimai.git
+	branch = master
+[submodule "modules/MajSimai"]
+	path = modules/MajSimai
+	url = https://github.com/TeamMajdata/MajSimai.git
+	branch = master
+[submodule "modules/SimaiSharp"]
+	path = modules/SimaiSharp
+	url = https://github.com/reflektone-games/SimaiSharp.git
+	branch = feat/one-pass-parser
+[submodule "modules/maidata-rs"]
+	path = modules/maidata-rs
+	url = https://github.com/panic-0/maidata-rs.git
+	branch = main

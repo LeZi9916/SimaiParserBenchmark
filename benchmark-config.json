@@ -1,0 +1,21 @@
+{
+  "repositories": {
+    "cimai": "modules/cimai",
+    "majsimai": "modules/MajSimai",
+    "simaisharp": "modules/SimaiSharp",
+    "maidata-rs": "modules/maidata-rs"
+  },
+  "samples": "SimaiTestSamples",
+  "framework": "net10.0",
+  "runtime_identifier": "win-x64",
+  "benchmarkdotnet_version": "0.15.8",
+  "google_benchmark_commit": "192ef10025eb2c4cdd392bc502f0c852196baa48",
+  "warmup_count": 2,
+  "iteration_count": 5,
+  "file_rounds": 5,
+  "seed": 3730,
+  "nativeaot_compiler_version": "10.0.12",
+  "criterion_version": "0.5.1",
+  "rust_toolchain": "1.99.1",
+  "minimum_success_rate": 0.9
+}

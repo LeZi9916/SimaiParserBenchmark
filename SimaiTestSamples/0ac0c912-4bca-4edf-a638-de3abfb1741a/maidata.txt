@@ -1,0 +1,9 @@
+&title=贝贝test
+&artist=李荣浩
+&first=0
+&des=贝贝
+&clock_count=4
+&lv_5=13+
+&des_5=
+&inote_5=(117.57){8},,,
+{64}1b/8b,2b/7b,3b/6b,4b/5b,,,,,,,1b/8b,2b/7b,3b/6b,4b/5b,

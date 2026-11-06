@@ -1,0 +1,11 @@
+&title=电棍：全家除冰音效（Ryu☆Remix）
+&artist=Water_Meter
+&first=-0.185
+&des=ottomania 2026
+&clock_count=4
+&lv_5=1
+&des_5=ottomania 2026
+&inote_5=(149){1},{4},7bh[4:1]/8b-2v3-5b[4:1],{32},,,,,,,,8bxh,1bxh,2bxh,3bxh,4bxh,5bxh,6bxh,7bxh,
+8bxh,1bxh,2bxh,3bxh,4bxh,5bxh,6bxh,7bxh,{8}8x-4[12:1],1-3[12:1],B8f/8-6[12:1],E2f/1-5[12:1],8b/E8f,1b/B1f,
+{32}5bx/4bx,6bx/3bx,7bx/2bx,1bx/8bx,,,,,{8}8bh[24:1]/B4f/B3,2bh[24:1]/B6f/E7,6bh[24:1]/B2f/E3,3bx/4bxw8[8:1],{4}7bx/8bxw4[8:1],
+E

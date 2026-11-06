@@ -1,0 +1,16 @@
+﻿&title=中国人能飞
+&artist=揽佬
+&first=-0.02
+&des=XMisakaX
+&lv_5=13
+&des_5=XMisakaX
+&inote_5=
+(138){4},{8},,,8bx/1bx,2bx/4bx,5bx/7bx,
+8bx/1bx,{32}4bx,5,6,7,8bx,1,2,3,4bx,5,6,7,8bx,1,2,3,4bx/8bx,7,6,5,4bx/8bx,3,2,1,4bx/8bx,7,6,5,
+4bx,,,4h[32:15],3bx,2bx,1bx,8bx,1bx,2bx,3bx,8bx,3bx,2bx,1bx,8bx,1bx,2bx,{16}3bx,{8}7/5qq8[1.9565##0.4348],8/4,1/3pp8[1.5217##0.4348],
+{1}8-4-8-4-8[2:1],
+{4},B8f/B7f/E7f/B6f/B5f/E5f/B4f/B3f/B2f/B1f/E1f/E3f/Cf,{8},7v4[8:1]/1v4[8:1],,,,7x-5[8:1],
+{4}5x-2[8:1],,4bxv5-7v8b[2:1]*v3-1v8b[2:1],
+{8},,,,,1bx,5bx,1bxh,
+5bxh,{32}1bxh/E2f,2bxh,3bxh,4bxh,5bxh/E6f,6bxh,7bxh,8bxh,1bx/B2f,2bx,3bx,4bx,5bx/B6f,6bx,7bx,8bx,1bx/B3f,2bx,3bx,4bx,5bx/B7f,6bx,7bx,8bx,
+E

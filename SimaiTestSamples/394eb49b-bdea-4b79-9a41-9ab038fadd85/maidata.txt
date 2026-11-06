@@ -1,0 +1,8 @@
+&title=Flashback
+&artist=Toby Fox
+&first=0.030
+&des=-
+&lv_5=3
+&des_5=
+&inote_5=(120)
+{1}6?xpp6pp6pp6pp6pp6pp6pp6pp6pp6pp6pp6pp6pp6pp6pp6pp5[30#16],4b,4b,3b,3b,4b,4b,3b,3b/6?xpp6pp6pp6pp6pp6pp6pp6pp6pp6pp6pp6pp6pp6pp6pp6pp5b[30#16],4b,4b,3b,3b,4b,4b,3b,3b,

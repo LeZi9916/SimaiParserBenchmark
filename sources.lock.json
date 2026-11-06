@@ -1,0 +1,46 @@
+{
+  "sources": {
+    "cimai": {
+      "repository": "modules/cimai",
+      "ref": "HEAD",
+      "commit": "1f9fe149a3964121a7f5b74e731bf22a6c2258df",
+      "commit_time": "2026-10-24T17:13:01+08:00",
+      "origin": "https://github.com/re-poem/cimai.git"
+    },
+    "maj-2.2.3": {
+      "repository": "modules/MajSimai",
+      "ref": "2.2.3",
+      "commit": "fdb2a3e39d8997a0abbf8b4679062d854473cc77",
+      "commit_time": "2026-09-01T21:01:46+08:00",
+      "origin": "https://github.com/TeamMajdata/MajSimai.git"
+    },
+    "maj-refactor": {
+      "repository": "modules/MajSimai",
+      "ref": "refactor/main-3730i8",
+      "commit": "2b3517895f0eb4c218d9a67c70ec026f5d296c0d",
+      "commit_time": "2026-11-05T03:55:40-05:00",
+      "origin": "https://github.com/TeamMajdata/MajSimai.git"
+    },
+    "sharp-master": {
+      "repository": "modules/SimaiSharp",
+      "ref": "master",
+      "commit": "5ef06f91ffdcc77d494baba46d2df4c8d67ca1d6",
+      "commit_time": "2025-03-07T13:52:49+08:00",
+      "origin": "https://github.com/reflektone-games/SimaiSharp.git"
+    },
+    "sharp-onepass": {
+      "repository": "modules/SimaiSharp",
+      "ref": "feat/one-pass-parser",
+      "commit": "6e5f2d80d978d6d96e3c3320e0aa43f38cf7c654",
+      "commit_time": "2026-10-27T17:41:17+08:00",
+      "origin": "https://github.com/reflektone-games/SimaiSharp.git"
+    },
+    "maidata-rs": {
+      "repository": "modules/maidata-rs",
+      "ref": "HEAD",
+      "commit": "f89ca14d5e1325faef42bd0f995a732794b884e6",
+      "commit_time": "2026-07-16T04:47:07+08:00",
+      "origin": "https://github.com/panic-0/maidata-rs.git"
+    }
+  }
+}

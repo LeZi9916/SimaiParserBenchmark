@@ -1,0 +1,13 @@
+&title=Infinity Heaven
+&artist=HyuN
+&first=0.750
+&des=Akatsuki
+&clock_count=4
+&wholebpm=160.000
+&lv_6=15
+&des_6=
+&inote_6=
+&lv_7=0
+&des_7=
+&inote_7=(160)5b,
+E

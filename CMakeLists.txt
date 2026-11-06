@@ -1,0 +1,50 @@
+cmake_minimum_required(VERSION 3.21)
+project(SimaiParserBenchmark LANGUAGES C CXX)
+include(FetchContent)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(BENCHMARK_ENABLE_TESTING OFF CACHE BOOL "" FORCE)
+set(BENCHMARK_ENABLE_INSTALL OFF CACHE BOOL "" FORCE)
+set(BENCHMARK_ENABLE_WERROR OFF CACHE BOOL "" FORCE)
+set(GOOGLE_BENCHMARK_COMMIT "192ef10025eb2c4cdd392bc502f0c852196baa48" CACHE STRING "Pinned Google Benchmark revision")
+FetchContent_Declare(googlebenchmark
+    GIT_REPOSITORY https://github.com/google/benchmark.git
+    GIT_TAG ${GOOGLE_BENCHMARK_COMMIT})
+FetchContent_MakeAvailable(googlebenchmark)
+if(MSVC)
+    add_compile_options(/utf-8 /O2 /Ob3)
+    add_link_options(/LTCG)
+endif()
+foreach(kind IN ITEMS timing memory)
+    add_library(cimai_${kind} STATIC
+        "${CIMAI_SOURCE}/src/misc/thirdparty_impl.c"
+        "${CIMAI_SOURCE}/src/memory.c"
+        "${CIMAI_SOURCE}/src/meta_parser.c"
+        "${CIMAI_SOURCE}/src/chart_parser.c"
+        "${CIMAI_SOURCE}/src/parser.c")
+    target_include_directories(cimai_${kind} PUBLIC "${CIMAI_SOURCE}/include")
+    # MSVC lacks C23 bool keywords; C17 + stdbool.h preserves bool semantics.
+    if(MSVC)
+        target_compile_options(cimai_${kind} PRIVATE /std:c17 /FIstdbool.h /GL)
+    else()
+        set_property(TARGET cimai_${kind} PROPERTY C_STANDARD 23)
+    endif()
+    if(kind STREQUAL "memory")
+        if(MSVC)
+            target_compile_options(cimai_${kind} PRIVATE "/FI${CMAKE_CURRENT_SOURCE_DIR}/src/native/allocator_redirect.h")
+        else()
+            target_compile_options(cimai_${kind} PRIVATE -include "${CMAKE_CURRENT_SOURCE_DIR}/src/native/allocator_redirect.h")
+        endif()
+    endif()
+    add_executable(cimai_${kind}_bench src/native/main.cpp src/native/heap.cpp)
+    target_compile_definitions(cimai_${kind}_bench PRIVATE PARSER_CIMAI)
+    target_link_libraries(cimai_${kind}_bench PRIVATE cimai_${kind} benchmark::benchmark psapi)
+    add_executable(maj_${kind}_bench src/native/main.cpp src/native/heap.cpp)
+    target_include_directories(maj_${kind}_bench PRIVATE "${MAJ_WRAPPER}/include")
+    target_link_libraries(maj_${kind}_bench PRIVATE benchmark::benchmark psapi "${MAJ_${kind}_LIB}")
+    if(kind STREQUAL "memory")
+        target_compile_definitions(maj_${kind}_bench PRIVATE TRACK_CPP_HEAP)
+    endif()
+    add_custom_command(TARGET maj_${kind}_bench POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different "${MAJ_${kind}_DLL}" "$<TARGET_FILE_DIR:maj_${kind}_bench>")
+endforeach()

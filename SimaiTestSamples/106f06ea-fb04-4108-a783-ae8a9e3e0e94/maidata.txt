@@ -1,0 +1,14 @@
+&title=贝贝
+&artist=李荣浩
+&first=0.007
+&des=DNT？
+&clock_count=4
+&wholebpm=170.800
+&lv_7=4s
+&des_7=
+&inote_7=(170.8)
+
+{4},,
+
+
+{24}18,27,36,45,,,1b/2,,,,,,

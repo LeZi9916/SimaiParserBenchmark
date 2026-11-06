@@ -1,0 +1,9 @@
+﻿&title=[撫]一千光年
+&artist=いよわ
+&first=0
+&des=Harmonydows
+&lv_7=0.1?
+&des_7=Harmonydows
+&inote_7=
+(125){4},{1},{4},,{64},,,1?-4b[0##207.99],
+E

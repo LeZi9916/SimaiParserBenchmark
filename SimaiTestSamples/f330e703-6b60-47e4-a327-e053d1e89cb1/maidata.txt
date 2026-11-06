@@ -1,0 +1,13 @@
+&title=伯方の塩
+&artist=塩谷信廣
+&first=2.75
+&des=Salty Maple
+&des_7=Salty Maple
+&wholebpm=145
+&lv_7=1
+&inote_7=(145)
+{4}A8/E8/E7/A6/A1/E2/E3/A3,E8/B8/B1/E2/A2/D3/A3/D4/A4/A1/C/B5/A5,
+{4}E1/B8/B7/E7/B1/B2/E3/B3/B4/E5/A5/A1`C,A1/D2/A2/D3/A3/D4/A4/A5/D6/A6/D7/A7/D8/A8/D1/B1/B5/C,
+{48}18,27,36,45,,,
+
+{1}1b/2,,

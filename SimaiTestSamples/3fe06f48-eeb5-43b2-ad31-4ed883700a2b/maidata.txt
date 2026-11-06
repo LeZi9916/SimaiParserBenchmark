@@ -1,0 +1,11 @@
+&title=【叮】IndiHome Paket Phoenix
+&artist=Hendro Engkeng & Diego Takupaz
+&first=0
+&des=Holi BPM 130
+&clock_count=4
+&lv_7=叮
+&inote_7=(130)
+{1}
+,
+{4}
+1b,
